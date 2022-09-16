@@ -1,0 +1,90 @@
+/*
+Theme Name: LeCafeDuHandicap 
+*/
+
+
+/* Réglages généraux */
+body {
+    background-color: #f5eebc;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+}
+
+#siteTitle {
+    color: #932115;
+    font-family: "Wizard Of The Moon";
+}
+
+/* Reglages dans les actus */
+
+.post-categories li {
+    list-style-type: none;
+    margin: 2px;
+    display: inline;
+}
+.post-categories li a {
+    color: #932115;
+    text-decoration: none;
+    border: 1px solid #932115;
+    border-radius: 10px;
+    padding: 3px;
+}
+.post-categories li a:hover {
+    color: #570e06;
+}
+.card-link {
+    color: #932115;
+    text-decoration: none;
+}
+.card-link:hover {
+    color: #570e06;
+}
+/* réglages calendrier evènements */
+
+.tribe-common-c-btn.tribe-events-c-search__button {
+    background-color: #932115;
+    color: #f5eebc;
+}
+
+
+.tribe-common .tribe-common-c-btn-border {
+    border: 1px solid #932115;
+    background-color: #f5eebc;
+    color: #932115;
+}
+
+.single-tribe_events .tribe-events-c-subscribe-dropdown .tribe-events-c-subscribe-dropdown__button.tribe-events-c-subscribe-dropdown__button--active, .single-tribe_events .tribe-events-c-subscribe-dropdown .tribe-events-c-subscribe-dropdown__button:focus, .single-tribe_events .tribe-events-c-subscribe-dropdown .tribe-events-c-subscribe-dropdown__button:focus-within, .single-tribe_events .tribe-events-c-subscribe-dropdown .tribe-events-c-subscribe-dropdown__button:hover, .tribe-events .tribe-events-c-subscribe-dropdown .tribe-events-c-subscribe-dropdown__button.tribe-events-c-subscribe-dropdown__button--active, .tribe-events .tribe-events-c-subscribe-dropdown .tribe-events-c-subscribe-dropdown__button:focus, .tribe-events .tribe-events-c-subscribe-dropdown .tribe-events-c-subscribe-dropdown__button:focus-within, .tribe-events .tribe-events-c-subscribe-dropdown .tribe-events-c-subscribe-dropdown__button:hover {
+    border: 1px solid #932115;
+    background-color: #932115;
+    color: #f5eebc;
+}
+
+.tribe-events .datepicker .day.active {
+    background-color: #932115;
+}
+.tribe-events .datepicker .day.active:hover {
+    background-color: #f5eebc;
+    color: black;
+}
+
+/*  Page contact  */ 
+
+#submitButton {
+    border: 1px solid #932115;
+    background-color: #932115;
+    color: #f5eebc;
+}
+#submitButton:hover {
+    background-color: #570e06;
+}
+#assoLocMap {
+    width: 100%;
+    height: auto;
+}
+
+/*  réglages menu footer  */
+
+.unclickable > a {
+    pointer-events: none !important;
+}
